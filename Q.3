@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <ctype.h>
+
+int main()
+{
+    char c;
+    if(scanf(" %c",&c)!=1)
+return 0;
+    if(isalpha((unsigned char)c))
+printf("Alphabet\n");
+else printf("Not alphabet\n");
+    return 0;
+}
