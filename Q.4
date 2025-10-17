@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include <ctype.h>
+
+int main(){
+    char c;
+    if(scanf(" %c",&c)!=1) return 0;
+    if(islower((unsigned char)c)) printf("%c\n", toupper((unsigned char)c)); else printf("%c\n", c);
+    return 0;
+}
