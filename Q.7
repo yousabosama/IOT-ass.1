@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main(){
+    double x,y;
+    if(scanf("%lf %lf",&x,&y)!=2) return 0;
+    double s = x+y;
+    long long truncated = (long long)s;
+    printf("%g\n%lld\n", s, truncated);
+    return 0;
+}
